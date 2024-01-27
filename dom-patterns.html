@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="1" />
+
+    <title>Colorful Patterns DOM Project</title>
+
+    <style>
+        div {
+            position: absolute;
+            /* ^ using css position attribute with 'absolute' here allows definition of absolute positon of the respective elelement,  which is important in this cae as we will be creating div elements that need to overlap each other (something that by default) shouldn't happen/  */
+        }
+    </style>
+</head>
+
+<body onload="showPattern()">
+    <!-- ^ 'Onload' event handler used here will wait until this element 'body' and all of its child elements have finished loading before running the asigned fucntion -->
+    <script src="js/dom-patterns.js"></script>
+</body>
+
+</html>
